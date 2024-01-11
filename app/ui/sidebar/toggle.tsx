@@ -11,7 +11,7 @@ export const Toggle = () => {
         toggleCollapse
     } = useSideBar((state) => state);
 
-    const label = collapsed ? "Expand" : "Collapse"
+    const label = collapsed ? "Expand" : "Collapse";
 
     return (
         <>
